@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <style>
+        /* Custom hover effect */
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 50px;
+        }
+        .image-container img {
+            transition: transform 0.3s ease;
+            border-radius: 50px;
+        }
+        .image-container:hover img {
+            transform: scale(1.1); /* Zoom on hover */
+            border-radius: 50px;
+        }
+        .forced-img-carosel{
+            height: 600px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- NavBAr-->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index-ar.html">على ما السنة تعدي</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contect-us.html">تواصل معنا</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+      <!-- Navbar end -->
+
+      <!-- body start -->
+       <div class="containter mt-2">
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/build 3.jpg" class="d-block w-100 forced-img-carosel" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/build 2.jpg" class="d-block w-100 forced-img-carosel" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/build 3.jpg" class="d-block w-100 forced-img-carosel" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+       </div>
+      <div class="container my-3">
+        <div class="d-flex justify-content-center">
+            <a 
+                href="https://wa.me/+201095633691?text=Hello%2C%20I%20would%20like%20to%20contact%20you!" 
+                target="_blank" 
+                class="btn btn-success btn-lg">
+                <i class="bi bi-whatsapp"></i> بص بصه
+            </a>
+        </div>
+    </div>
+      <!-- body end -->
+
+      <!-- footer start-->
+      <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2024 Your Company Name. All Rights Reserved.</p>
+    </footer>
+      <!-- footer end-->
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
